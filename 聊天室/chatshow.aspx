@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>聊天室</title>
-	<meta http-equiv="refresh" content="5">
+	<meta http-equiv="refresh" content="5" />
 </head>
 <body>
     <form id="form1" runat="server">
