@@ -1,0 +1,17 @@
+﻿body {
+}
+
+#importthis {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#java {
+    width: 500px;
+    margin:0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
