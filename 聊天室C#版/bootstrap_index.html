@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="web课个人练习主站">
+    <link rel="icon" href="https://i.loli.net/2019/02/20/5c6cf0555ffe6.jpeg">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="dashboard.css" rel="stylesheet">
+    <title>Web课程主页</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" target="iframe">Welcome</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="课程介绍.html" target="iframe">课程介绍</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人介绍 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="个人介绍.html" target="iframe">个人介绍主页</a></li>
+                            <li><a href="http://chiyuanye.com" target="iframe">技术博客</a></li>
+                            <li><a href="http://boycyy.com" target="iframe">私人博客</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">社交媒体</li>
+                            <li><a href="https://github.com/tsiye" >Github</a></li>
+                            <li><a href="https://leetcode.com/tsiye/">Leetcode</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="学院介绍.html" target="iframe">学院介绍</a></li>
+                    <li><a href="视频和图片.html" target="iframe">视频和图片</a></li>
+                    <li><a href="#contact" target="iframe">学习论坛</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="课程介绍.html" target="iframe">课程介绍 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="lx1-1.aspx" target="iframe">实验1</a></li>
+                    <li><a href="lx2-2.aspx" target="iframe">实验2</a></li>
+                    <li><a href="lx3-1.aspx" target="iframe">实验3</a></li>
+                    <li><a href="lx4-1.aspx" target="iframe">实验4-1</a></li>
+                    <li><a href="lx4-2.aspx" target="iframe">实验4-2</a></li>
+                    <li><a href="lx5-1.aspx" target="iframe">实验5-1</a></li>
+                    <li><a href="聊天室/chatlogin.aspx" target="iframe">聊天室</a></li>
+                    <li><a href="">实验8</a></li>
+                    <li><a href="">实验9</a></li>
+                </ul>
+                <!--<ul class="nav nav-sidebar">
+                    <li><a href="">Nav item</a></li>
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                    <li><a href="">More navigation</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Nav item again</a></li>
+                    <li><a href="">One more nav</a></li>
+                    <li><a href="">Another nav item</a></li>
+                </ul>-->
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="height: 900px">
+                <iframe src="课程介绍.html" name="iframe">
+                    <!--这里的src是初始化页面-->
+
+                </iframe>
+                <!--<iframe src="个人介绍.html" name="iframe">
+                </iframe>-->
+            </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    </html>
